@@ -35,14 +35,12 @@
 
       - if Setting.timeline_preview
         .column-2
-          .landing-page__hero
-            = image_tag @instance_presenter.hero&.file&.url || @instance_presenter.thumbnail&.file&.url || asset_pack_path('preview.jpg'), alt: @instance_presenter.site_title
 
           .landing-page__information
             .landing-page__short-description
               .row
                 .landing-page__logo
-                  = image_tag asset_pack_path('logo_transparent.svg'), alt: 'Mastodon'
+                  = image_tag asset_pack_path('logo_transparent.png'), alt: 'vapor fm mastodon'
 
                 %h1
                   = @instance_presenter.site_title
