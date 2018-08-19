@@ -9,13 +9,6 @@ $win95-cyan: #008080;
 $ui-base-lighter-color: $win95-dark-grey;
 $ui-highlight-color: $win95-window-header;
 
-$primary-text-color: black;
-$secondary-text-color: black;
-//$light-text-color: black;
-//$lighter-text-color: black;
-//$dark-text-color: black;
-$darker-text-color: black;
-
 @mixin win95-border-outset() {
   border-left: 2px solid #efefef;
   border-top: 2px solid #efefef;
@@ -2124,5 +2117,45 @@ a.table-action-link:hover,
   span
   {
     background: none;
+    color: black;
   }
+}
+
+.landing-page .information-board__section
+{
+  color: white;
+}
+
+.landing-page p {
+  color: black;
+}
+
+.landing-page .features-list .features-list__row .text
+{
+  color: black;
+}
+
+.landing-page .features-list .features-list__row .visual .fa
+{
+  color: black;
+}
+
+.landing-page__call-to-action
+{
+  color: black;
+}
+
+.landing-page__short-description h1
+{
+  color: black;
+}
+
+.landing-page__short-description h1 small span
+{
+  color: black;
+}
+
+.simple_form p.hint.subtle-hint
+{
+  color: black;
 }
